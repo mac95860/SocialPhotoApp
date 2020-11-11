@@ -1,9 +1,12 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const routes = require('./routes');
+require('./models/user ')
 const PORT = 3000;
 
 const app = express();
+
+app.use(require('./routes/api/auth'))
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/photo_app_db", {
     useNewUrlParser: true,

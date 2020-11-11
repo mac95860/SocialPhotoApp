@@ -1,0 +1,25 @@
+{
+  "name": "SocialPhotoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac95860/SocialPhotoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mac95860/SocialPhotoApp/issues"
+  },
+  "homepage": "https://github.com/mac95860/SocialPhotoApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  }
+}

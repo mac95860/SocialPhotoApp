@@ -1,10 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
+//test route
 router.get('/', (req, res) => {
     res.send("hello");
 });
 
+//sign up route
 router.post('/signup', (req, res) => {
     const {name, email, password} = req.body;
     if(!email || !password || !name) {
